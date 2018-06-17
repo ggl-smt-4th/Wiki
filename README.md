@@ -1,7 +1,7 @@
 # 硅谷live以太坊智能合约开发课程
 ## 课程信息
 - [开营仪式重要信息汇总]()
-- [积分表格]()
+- [积分表格](http://route-little-sister.1d35.starter-us-east-1.openshiftapps.com)
 - [作业提交情况]()
 ## 常见问题FAQ
 ## 课程补充学习笔记
