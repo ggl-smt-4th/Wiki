@@ -11,5 +11,5 @@
 - [Ethereum的Merkle-tree扩展](Extensions/Merkle.md)
 ## 每日优质内容复盘
 - [619](https://github.com/ggl-smt-4th/Wiki/wiki/daily-review-0619)
--[620](https://github.com/ggl-smt-4th/Wiki/wiki/6.20)
+- [620](https://github.com/ggl-smt-4th/Wiki/wiki/6.20)
 ## 分享会复盘
