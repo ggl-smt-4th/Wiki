@@ -10,8 +10,8 @@
 ## 课程知识拓展
 - [Ethereum的Merkle-tree扩展](Extensions/Merkle.md)
 ## 每日优质内容复盘
-- [619](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.6.19）
-- [620](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.6.20）
+- [619](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.6.19)
+- [620](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.6.20)
 - [621](https://github.com/ggl-smt-4th/Wiki/wiki/6.21)
 - [622](https://github.com/ggl-smt-4th/Wiki/wiki/6.22)
 - [623](https://github.com/ggl-smt-4th/Wiki/wiki/6.23)
