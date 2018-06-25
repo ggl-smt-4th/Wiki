@@ -5,8 +5,12 @@
 - [作业提交情况]()
 ## 常见问题FAQ
 - [第一课常见问题](FAQ/FAQ1.md)
+- [第二课常见问题](FAQ/FAQ2.md)
+- [第三课常见问题](FAQ/FAQ3.md)
 ## 课程补充学习笔记
 - [Lesson 1](Notes/lesson1.md)
+- [Lesson 2](Notes/lesson2.md)
+- [Lesson 3](Notes/lesson3.md)
 ## 课程知识拓展
 - [Ethereum的Merkle-tree扩展](Extensions/Merkle.md)
 ## 每日优质内容复盘
