@@ -20,7 +20,7 @@
 - [622](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.6.22)
 - [623](https://github.com/ggl-smt-4th/Wiki/wiki/6.23)
 - [624](https://github.com/ggl-smt-4th/Wiki/wiki/6.24)
-- [625](https://github.com/ggl-smt-4th/Wiki/wiki/6.25)
+- [625](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.6.25)
 - [626](https://github.com/ggl-smt-4th/Wiki/wiki/6.26)
 - [627](https://github.com/ggl-smt-4th/Wiki/wiki/6.27)
 - [628](https://github.com/ggl-smt-4th/Wiki/wiki/6.28)
