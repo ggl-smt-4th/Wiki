@@ -52,7 +52,7 @@ contract SimpleStorage {
     - 位操作：&, |, ^(非), ~(异或), >>, <<
     - 计算：+, -, *, /, %, **
 
-    ==solidity当中没有浮点数==
+    **solidity当中没有浮点数**
 4. 地址ADDRESS：**看成一个原生的比较复杂的类型**
 - address.balance：重要的成员变量
 - address.transfer(value)：能将调用后产生的异常返回给调用者手中，**转钱时推荐使用**
@@ -64,6 +64,7 @@ contract SimpleStorage {
 - szabo = 10^12 wei
 - finney = 10^15 wei
 - ether = 10^18 wei
+
 6. 时间单位
 - seconds
 - minutes
@@ -72,7 +73,7 @@ contract SimpleStorage {
 - weeks
 - years
 
-6. **block块**：
+7. **block块**：
 > 像singleton，整个程序里面只有一个，谁都能access
 
 - block.blockhash(uint blockNumber) returns (bytes32)
@@ -83,7 +84,7 @@ contract SimpleStorage {
 - block.timestamp(uint)：block目前创建的时间
 - now：相当于block.timestamp的快捷方式
 
-7. **msg消息**：全局变量，包含智能合约中函数调用者的信息和数据
+8. **msg消息**：全局变量，包含智能合约中函数调用者的信息和数据
 - msg.data：包含函数调用所有的raw信息，如名字等
 - msg.gas(uint)：查看函数调用者附带了多少gas
 - msg.sender(address)：谁调用了这个函数
@@ -110,7 +111,7 @@ contract SimpleStorage {
         - function getPaid
 
 
-### ==要点==
+### 要点
 1. 在一个合约中，如果要一个函数能够接受“钱”的话，必须加上`payable`
     > `function addFund() payable`
 
@@ -118,8 +119,8 @@ contract SimpleStorage {
 3. `this.`的调用模式在`EVM`中是通过`msg`来实现的，**代价非常高，需要支付很多`gas`**；如果采用直接调用合约中方法的方式，在`EVM`中是`jump`的方式，消耗少很多
 4. 执行失败需要给出异常提示，`throw`已经deprecated，应该采用`revert()`
     > 如果采用`throw`抛出异常，所有的剩余`gas`都会消耗殆尽；而采用`revert()`的话，会回滚以前所有`transaction`的状态，同时交还没有消耗完的`gas`
-5. ==一定要在内部变量修改完之后，再给外部转账==
-6. ==每个运算都要花费真金白银，重复的运算绝对不可以==
+5. **一定要在内部变量修改完之后，再给外部转账**
+6. **每个运算都要花费真金白银，重复的运算绝对不可以**
 7. `solidity`中变量的作用域类似`javascript`，与`java`不同：只要在`function`中定义了局部变量，这个局部变量的作用域会穿透`{}`，在整个`function`中都有效
 
 ### 小结
@@ -150,27 +151,27 @@ contract SimpleStorage {
 可调整地址和薪水的员工系统
 
 ### 问题
-==1. 关于 constant/view 以及 pure，假如是严格执行的话，限制的是自己本身这个function还是限制修改其它的合约状态呢？==
+#### 1. 关于 constant/view 以及 pure，假如是严格执行的话，限制的是自己本身这个function还是限制修改其它的合约状态呢？
 
 答：无法修改本合约的其他状态变量
 
 在Solidity v4.17之前，只有constant，后续版本将constant拆成了view和pure。view的作用和constant一模一样，可以读取状态变量但是不能改；pure则更为严格，pure修饰的函数不能改也不能读状态变量，只能操作函数内部变量，否则编译通不过。
 
-==2. 全局变量block可以理解为链上的那个block吧？==
+#### 2. 全局变量block可以理解为链上的那个block吧？
 
 答：目前看来应该是的。
 
-==3. `function addFund() payable`为什么没有传入参数？==
+#### 3. `function addFund() payable`为什么没有传入参数？
 
 答：调用合约函数相当于发起一次tranction 所以是可以转账的 只不过一般的调用默认转账金额是0 这个在后面课程会介绍怎么使用eth主网
 
 
-==4. 使用require（condition）和使用if，会有gas消耗上的差别吗？==
+#### 4. 使用require（condition）和使用if，会有gas消耗上的差别吗？
 
 答：gas消耗还不太确定，但感觉不过比使用if多。
 主要的原因还是会“确保”提高合约代码逻辑条理清晰
 
-==5. `employeeAddress != 0x0` 是怎样理解的==
+#### 5. `employeeAddress != 0x0` 是怎样理解的
 
 答：While the zero address is only intended for contract registration, it sometimes receives payments from various addresses. There are two explanations for this: 
 - either it is by accident, resulting in the loss of ether 
