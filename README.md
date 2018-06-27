@@ -9,7 +9,9 @@
 - [第三课常见问题](FAQ/FAQ3.md)
 ## 课程补充学习笔记
 - [Lesson 1](Notes/lesson1.md)
+- [Lesson 1 by 肖毅](Notes/lesson1_肖毅.md)
 - [Lesson 2](Notes/lesson2.md)
+- [Lesson 2 by 肖毅](Notes/lesson2_肖毅.md)
 - [Lesson 3](Notes/lesson3.md)
 ## 课程知识拓展
 - [Ethereum的Merkle-tree扩展](Extensions/Merkle.md)
