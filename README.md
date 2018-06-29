@@ -27,5 +27,5 @@
 - [626](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.6.26)
 - [627](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.6.27)
 - [628](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.6.28)
-- [629](https://github.com/ggl-smt-4th/Wiki/wiki/6.29)
+- [629](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.6.29)
 ## 分享会复盘
