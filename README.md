@@ -35,4 +35,5 @@
 - [702](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.7.2)
 - [703](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.7.3)
 - [704](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.7.4)
+- [705](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.7.5)
 ## 分享会复盘
