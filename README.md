@@ -14,6 +14,8 @@
 - [Lesson 2 by 肖毅](Notes/lesson2_肖毅.md)
 - [Lesson 3](Notes/lesson3.md)
 - [Lesson 3 by 肖毅](Notes/lesson3_肖毅.md)
+- [Lesson 4 by 肖毅](Notes/lesson4_肖毅.md)
+- [Lesson 5 by 肖毅](Notes/lesson5_肖毅.md)
 ## 课程知识拓展
 - [Ethereum的Merkle-tree扩展](Extensions/Merkle.md)
 ## 每日优质内容复盘
