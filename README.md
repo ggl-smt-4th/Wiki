@@ -18,7 +18,7 @@
 - [Lesson 5 by 肖毅](Notes/lesson5_肖毅.md)
 ## 课程知识拓展
 - [Ethereum的Merkle-tree扩展](Extensions/Merkle.md)
-- [智能合约及安全相关资料](Notes/相关资料_吕其坤.md)
+- [智能合约及安全相关资料 by 吕其坤](Notes/相关资料_吕其坤.md)
 ## 每日优质内容复盘
 - [619](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.6.19)
 - [620](https://github.com/ggl-smt-4th/Wiki/wiki/每日优质内容复盘-2018.6.20)
